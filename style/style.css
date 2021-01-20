@@ -208,7 +208,12 @@ body {
 .ourcomand-cards {
   background-color: var(--main-bg-color);
 }
-
+.ourcomand-li {
+  max-width: 270px;
+  max-height: 368px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
 .ourcomand-name {
   margin-top: 30px;
 
