@@ -228,11 +228,20 @@ body {
 .workspace-posters .workspace-posters-list:not(:last-child) {
   padding-right: 30px;
 }
+
 /* наша команда */
+.ourcomand-items {
+  display: flex;
+}
+.ourcomand-items .ourcomand-li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .ourcomand {
   background-color: var(--ourcomand-bgc);
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 100%;
 }
 .ourcomand-h {
   margin-bottom: 50px;
@@ -242,9 +251,7 @@ body {
   line-height: 1.16;
   text-align: center;
 }
-.ourcomand-cards {
-  background-color: var(--main-bg-color);
-}
+
 .ourcomand-li {
   display: block;
   max-width: 270px;
@@ -253,6 +260,8 @@ body {
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  background-color: var(--main-bg-color);
 }
 .ourcomand-name {
   margin-top: 30px;
@@ -274,6 +283,7 @@ body {
 /* footer */
 .footer {
   background-color: var(--footer-bgc);
+  width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
