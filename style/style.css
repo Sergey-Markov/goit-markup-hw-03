@@ -70,7 +70,19 @@ body {
   padding: 0px;
   list-style: none;
 }
-
+/* HEADER */
+.top {
+  display: flex;
+  max-height: 80px;
+}
+.top .contact:last-child {
+  margin-left: 331px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navigation {
+  display: flex;
+}
 /* логотип */
 .logo {
   text-decoration: none;
@@ -82,8 +94,22 @@ body {
 .logo-header {
   color: var(--black-color-logo);
 }
+.navigation .logo-header:first-child {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
 
 /* навигация по сайту */
+.navigation-items {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navigation-items .navigation-items-li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link {
   color: var(--main-color);
   text-decoration: none;
@@ -102,6 +128,13 @@ body {
 }
 
 /* контактная информация хедер*/
+.contact {
+  display: flex;
+}
+.contact .contact-items:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link-contact {
   color: var(--gray-text);
   text-decoration: none;
@@ -183,14 +216,18 @@ body {
 }
 .workspace-h {
   margin-bottom: 50px;
-  /* display: inline-block; */
 
   font-weight: var(--bold-weight);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
-
+.workspace-posters {
+  display: flex;
+}
+.workspace-posters .workspace-posters-list:not(:last-child) {
+  padding-right: 30px;
+}
 /* наша команда */
 .ourcomand {
   background-color: var(--ourcomand-bgc);
@@ -209,10 +246,13 @@ body {
   background-color: var(--main-bg-color);
 }
 .ourcomand-li {
+  display: block;
   max-width: 270px;
   max-height: 368px;
   border: 1px solid transparent;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .ourcomand-name {
   margin-top: 30px;
