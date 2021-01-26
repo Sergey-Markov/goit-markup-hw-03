@@ -308,13 +308,15 @@ body {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .ourcomand-name {
   font-weight: var(--link-weight);
   font-size: 16px;
   line-height: 1.18;
 }
-.oourcomand-specialization {
+.ourcomand-specialization {
   margin-top: 10px;
 
   color: var(--gray-text);
