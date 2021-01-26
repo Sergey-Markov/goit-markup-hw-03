@@ -92,7 +92,7 @@ body {
   max-height: 80px;
 }
 .top .contact:last-child {
-  margin-left: 331px;
+  margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -214,11 +214,13 @@ body {
 
 /* характеристика команды */
 
+.comandspecifications {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .comandspecifications-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .comandspecifications-list .comandspecifications-li:nth-child(4n) {
   margin-right: 0px;
